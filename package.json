@@ -1,7 +1,7 @@
 {
   "name": "infinite-time-progress-car",
   "version": "0.1.0",
-  "description": "Progress Bar Component Based On Time",
+  "description": "Progress bar component based on time",
   "main": "assets",
   "bin": "assets",
   "scripts": {
