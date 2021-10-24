@@ -3,7 +3,7 @@
 
 # Preview
 
-![Preview](https://s20.picofile.com/file/8442750668/infinite_time_progress_bar.gif)
+![Preview](https://s21.picofile.com/file/8442750742/infinite_time_progress_bar.gif)
 
 # Instalation
 `npm i infinite-time-progress-bar`
