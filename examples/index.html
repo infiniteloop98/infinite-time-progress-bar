@@ -4,15 +4,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Time Progress Bar</title>
-    <link rel="stylesheet" href="../dist/css/styles.css" />
+    <link rel="stylesheet" href="../dist/css/infinite-time-progress-bar.min.css" />
   </head>
   <body>
-    <div id="infinite-time-progress-bar" class="fade hide">
+    <div id="my-time-progress-bar" class="infinite-time-progress-bar fade hide">
       <svg id="time-progress-bar" width="47" height="47">
         <circle
           class="time-progress-bar-circle"
           stroke="white"
-          stroke-width="4"
+          stroke-width="3"
           r="22"
           cx="75"
           cy="75"
@@ -21,12 +21,13 @@
       <p></p>
     </div>
     <script
-      src="../dist/js/infinite-time-progress-bar.js"
+      src="../dist/js/infinite-time-progress-bar.min.js"
       type="text/javascript"
     ></script>
     <script type="text/javascript">
       window.onload = () => {
         new InfiniteTimeProgressBar({
+          selector: "#my-time-progress-bar",
           duration: 10000,
           callback: () => console.log("e.g: Redirect to other page...")
         }).render();

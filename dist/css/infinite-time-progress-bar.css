@@ -1,4 +1,4 @@
-#infinite-time-progress-bar {
+.infinite-time-progress-bar {
   position: fixed;
   left: 5%;
   bottom: 8%;
@@ -7,7 +7,7 @@
   border-radius: 50%;
 }
 
-#infinite-time-progress-bar p {
+.infinite-time-progress-bar p {
   position: absolute;
   top: 50%;
   right: 0;
@@ -19,7 +19,7 @@
   color: #fff;
 }
 
-#infinite-time-progress-bar circle.time-progress-bar-circle {
+.infinite-time-progress-bar circle.time-progress-bar-circle {
   transition: 0.35s stroke-dashoffset;
   transform: rotate(-90deg);
   transform-origin: 50% 160%;
