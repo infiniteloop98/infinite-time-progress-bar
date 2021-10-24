@@ -6,7 +6,7 @@ class InfiniteTimeProgressBar {
   canRender = false;
   constructor(options = {}) {
     this.options = {
-      selector: "#infinite-time-progress-bar",
+      selector: ".infinite-time-progress-bar",
       duration: 5000,
       callback: () => {},
       ...options,
