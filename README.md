@@ -41,7 +41,7 @@
 
 | option  | type | Description | default
 | ------------- | ------------- | ------------- | ------------- |
-| selector  | `string`  | Your element id or class | `#infinite-time-progress-bar`
+| selector  | `string`  | Your element id or class | `.infinite-time-progress-bar`
 | duration  | `integer` | Remaining time to execute callback function(based on millisecond, minimum: 1000) | 5000
 | callback  | `function`| Callback function for execute when timer is ended | Void
 
