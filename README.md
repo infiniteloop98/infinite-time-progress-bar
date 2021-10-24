@@ -1,5 +1,5 @@
 # Infinite Time Progress Bar
-### Progress Bar Component Based On Time
+#### Progress bar component based on Time
 
 # Preview
 
@@ -30,7 +30,7 @@
 ```` 
 <script>
   const options = {
-                 selector: "#your-selector",
+                 selector: "#my-time-progress-bar",
                  duration: 10000,
                  callback: yourCallbackFunction
               },
