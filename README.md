@@ -11,6 +11,7 @@
 # Usage
 
 1. Put this html in your layout
+
 ```` 
 <div id="my-time-progress-bar" class="infinite-time-progress-bar fade hide">
       <svg width="47" height="47">
@@ -26,6 +27,14 @@
       <p></p>
 </div>
 ````
+
+Note: If you use this package in browser include this files in your layout:
+
+* /dist/js/infinite-time-progress-bar.min.js
+* /dist/css/infinite-time-progress-bar.min.css
+
+Otherwise import above files
+
 2. Create new instance from InfiniteTimeProgressBar class
 ```` 
 <script>
