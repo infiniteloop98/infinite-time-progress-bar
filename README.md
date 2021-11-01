@@ -5,7 +5,7 @@
 
 ![Preview](https://s21.picofile.com/file/8442750742/infinite_time_progress_bar.gif)
 
-# Instalation
+# Installation
 `npm i infinite-time-progress-bar`
 
 # Usage
