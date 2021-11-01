@@ -3,8 +3,8 @@
  * Github: https://github.com/infiniteloop98
  */
 class InfiniteTimeProgressBar {
-  canRender = false;
   constructor(options = {}) {
+    this.canRender = false;
     this.options = {
       selector: ".infinite-time-progress-bar",
       duration: 5000,
