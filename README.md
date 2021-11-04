@@ -51,7 +51,7 @@
 
 # Donate
 
-If this package is useful, you can donate from this ways:
+If this component is useful, you can donate from this ways:
 
 ### Cryptocurrencies:
 
