@@ -5,9 +5,6 @@
 
 ![Preview](https://s21.picofile.com/file/8442750742/infinite_time_progress_bar.gif)
 
-# Installation
-`npm i infinite-time-progress-bar`
-
 # Usage
 
 1. include this files in your layout:
@@ -33,8 +30,7 @@
 </div>
 ````
 
-
-3. Create new instance from InfiniteTimeProgressBar class
+3. Create new instance from InfiniteTimeProgressBar class and call render method
 ```` 
 <script>
   const options = {
@@ -55,7 +51,7 @@
 
 # Donate
 
-If this package is useful, you can donate from this ways:
+If this component is useful, you can donate from this ways:
 
 ### Cryptocurrencies:
 
