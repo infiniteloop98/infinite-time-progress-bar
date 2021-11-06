@@ -51,17 +51,16 @@ class InfiniteTimeProgressBar {
     this.container = document.querySelector(selector);
     this.circle = this.container.querySelector("svg circle");
     this.remainingTimeContainer = this.container.querySelector("p");
-    this.radius = this.circle.r.baseVal.value;
-    this.circumference = this.radius * 2 * Math.PI;
-    this.incrementEverySecond = 100 / Math.round(duration);
-    this.circle.style.strokeDasharray = `${this.circumference} ${this.circumference}`;
     this.canRender = true;
   };
 
   calculate = () => {
     const { duration } = this.options;
     this.progress = 100;
+    this.incrementEverySecond = 100 / Math.round(duration);
+    this.radius = this.circle.r.baseVal.value;
     this.circumference = this.radius * 2 * Math.PI;
+    this.circle.style.strokeDasharray = `${this.circumference} ${this.circumference}`;
     this.incrementEverySecond =
       this.progress / Math.round(Math.floor(duration));
     this.setSecond(duration);
